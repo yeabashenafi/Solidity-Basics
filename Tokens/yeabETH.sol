@@ -8,15 +8,17 @@ import "hardhat/console.sol";
 // token contract contract inherits the erc20 contract
 contract YeabETH is ERC20{
     address public liquidityFeeWallet;
+    address public owner;
 
     // constructor defines receives the liquidity fees wallet address
     // also defines the token name and short name
-    constructor( address liquidityFeesWallet1) ERC20("YEABETH","YEABETH"){
+    constructor( address liquidityFeesWallet1, address ownerAddress) ERC20("YEABETH","YEABETH"){
         // mints or gives ownership to the contract owner 
         // 1000 tokens considering 10**18
         _mint(_msgSender(), 1000 * 10**18);
         // assigns the liquidity fee wallet to the state address variable
         liquidityFeeWallet=liquidityFeesWallet1;
+        owner = ownerAddress;
     }
 
     // defines a transfer variable that overrides the default transfer function form erc20
@@ -24,7 +26,7 @@ contract YeabETH is ERC20{
     function transfer(address to, uint256 value) public override returns (bool) {
        
        // assigns the owner of the contract
-        address owner = _msgSender();
+        address contractOwner = _msgSender();
         // makes sure the owner has sufficient balance
         require(value<super.balanceOf(owner),"Not enough balance");
         // calculates the fee based on the amount
@@ -35,8 +37,8 @@ contract YeabETH is ERC20{
         console.log(theTransactionAmount);
         console.log(theFeeValue);
         // calls the transfer method of the erc20 
-        super._transfer(owner, to, theTransactionAmount);
-        super._transfer(owner, liquidityFeeWallet, theFeeValue);
+        super._transfer(contractOwner, to, theTransactionAmount);
+        super._transfer(contractOwner, liquidityFeeWallet, theFeeValue);
         return true;
     }
 
