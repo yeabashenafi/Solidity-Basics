@@ -1,5 +1,8 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity >=0.5.0 <0.7.0;
+pragma experimental ABIEncoderV2;
+
+
 // imports the hardhat console file
 import "hardhat/console.sol";
 
@@ -16,18 +19,22 @@ contract PaymentLinkContract{
 
     // struct for payments
     struct Payment{
+        uint256 id;
         uint256 link_id; // stores the payment link id
         address payer;// stores the address of the payer's address
         uint amount; // stores the amount paid
         uint timestamp;// stores the timestamp of the payment in non human readable format
+        string status; // status of payment that stores the status of the payment
     }
 
     // array of all payment links
     PaymentLink[] public links;
+    Payment[] public paymentsArray;
 
     mapping(uint256 => PaymentLink) public paymentLinks;
+    mapping(uint256 => Payment[]) public payments;
 
-    constructor(){}
+    constructor() public {}
 
     // function to create payment links
     function createPaymentLink(address _creator, address _recipient, uint _amount, string memory _message) public{
@@ -63,8 +70,22 @@ contract PaymentLinkContract{
 
     // To Do 
     // Pay function that can be connected to celo mini pay
-    function pay() public {
+    function pay(uint256 _link_id, address _payer) public {
 
+        // checks that the link with the id exists
+        require(paymentLinks[_link_id].id != 0, "Link does not exist");
+
+        // creates a new payment object
+        PaymentLink memory link = paymentLinks[_link_id];
+
+        uint256 id = uint256(keccak256(abi.encodePacked(blockhash(block.number - 1), _link_id, _payer, link.amount, block.timestamp, "Success")));
+
+        Payment memory newPayment = Payment(id,_link_id,_payer,link.amount,block.timestamp,"Success");
+
+        // adds the newly created payment struct to the payments mapping
+        payments[_link_id].push(newPayment);
+
+        console.log(payments[_link_id][0].id);
     }
 
     // To Do
@@ -74,7 +95,5 @@ contract PaymentLinkContract{
 
         uint256 unique_id = 123456;
         return unique_id;
-    }
-
-    
+    }   
 }
