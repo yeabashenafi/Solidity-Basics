@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myuint",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyUint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ethereum Course/Basics/integers.sol": "ExampleInt"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ethereum Course/Basics/integers.sol": {
+			"keccak256": "0x38acaa445a615666c1399aecca929fd7f964651d097253a74acc68193f7c204e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2602a99ea4b8756f8e60ec6f1eb59ebf048e6d17fe001a8c957257405555b3f8",
+				"dweb:/ipfs/QmVLouYvCdxH5iVVJVwHukr5hgu8W1S55s6qs5TrbbWLS9"
+			]
+		}
+	},
+	"version": 1
+}

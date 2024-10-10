@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "getAddition",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getStorageVariable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_newValue",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyStorageVariable",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ethereum Course/Basics/function_types.sol": "FunctionTypes"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ethereum Course/Basics/function_types.sol": {
+			"keccak256": "0x2d5ecc20c8bff2fafda9963ed71fa5660d7a9c1e37e761b052ff9f9643827ee8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cc773eae4f0dccb06776e01a0393e5590a918a44876e1113323356d4a90acef8",
+				"dweb:/ipfs/QmXUSZf7kANEm6TTrJPHb3udgAAASTNj61yBT66JasLomp"
+			]
+		}
+	},
+	"version": 1
+}

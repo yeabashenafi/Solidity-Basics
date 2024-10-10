@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_mybool",
+						"type": "bool"
+					}
+				],
+				"name": "setMyBool",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ethereum Course/Basics/boolean.sol": "BooleanContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ethereum Course/Basics/boolean.sol": {
+			"keccak256": "0xebb267c5d662e8afcc659193e54d832bc5ab370beeee32500dbd8d95f90457ee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cb1cc3fdd3c1aabb92aea5f5d93e88f5bedd296a7cee32104c54b4df8ace57a4",
+				"dweb:/ipfs/QmVW66QbkHS1poq2pedfuimHiU2ZWJb1Eq5mqsx4SzKrhD"
+			]
+		}
+	},
+	"version": 1
+}
