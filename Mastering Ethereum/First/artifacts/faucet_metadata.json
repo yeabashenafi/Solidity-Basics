@@ -1,0 +1,55 @@
+{
+	"compiler": {
+		"version": "0.4.19+commit.c4cbbb05"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "withdraw_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Mastering Ethereum/First/test-ether-faucet.sol": "faucet"
+		},
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Mastering Ethereum/First/test-ether-faucet.sol": {
+			"keccak256": "0x9f81f825bab7cd2948390ab79c0f0e1e2e648df85ab9f7d96f1f036617d31037",
+			"urls": [
+				"bzzr://fb8b217221a7dee9745ecf2d509646d680135ba64bb2becb8de4c23a843a4d79"
+			]
+		}
+	},
+	"version": 1
+}
