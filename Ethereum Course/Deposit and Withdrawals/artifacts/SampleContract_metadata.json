@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newString",
+						"type": "string"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ethereum Course/Deposit and Withdrawals/payable.sol": "SampleContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ethereum Course/Deposit and Withdrawals/payable.sol": {
+			"keccak256": "0x58b04d73688c5bb9e181c13e91be6b38d4196445d8f7d94cfc6b553b7550b411",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16a59da14c0293fcd1c6c5a27267727040a5c10ad14953414d8be402f4d7ee73",
+				"dweb:/ipfs/QmSG5BikohnTPLxq5GKcZE5Y77jmZrb644B7WSD9nL7ssj"
+			]
+		}
+	},
+	"version": 1
+}
