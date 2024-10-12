@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ethereum Course/Deposit and Withdrawals/fallback.sol": "SampleContract"
+			"Ethereum Course/Deposit and Withdrawals/fallback.sol": "SampleContractFal"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"Ethereum Course/Deposit and Withdrawals/fallback.sol": {
-			"keccak256": "0xc6ccd1d4f20910f086427ff067f447a563f2fc0473b573d7fb38e32a89064a36",
+			"keccak256": "0x1f4bab842e5e8f841abb85ae6d1ef31b778d3a349f98e2d8d8b0b6c2d7aac979",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b5c548ad94e8c43ac43fd34aec82e2d72fa4d560401faa1894fcd095aab4e0ed",
-				"dweb:/ipfs/QmVCz8YgvwNs3AnrDjKQVZMpre7xLtkxKNdv6yFPS4ezxL"
+				"bzz-raw://0bf084f1ea57390a56618b3189c117b3b62b750d5b57d388b6f9234367afdb10",
+				"dweb:/ipfs/QmWCs3dUGLd5fZjVeApwnwZwJTvjKoJ5dyjBuXevNqFzcR"
 			]
 		}
 	},

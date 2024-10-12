@@ -6,6 +6,11 @@ contract SampleContract {
 
     string public myString = "Hello World";
 
+    // required to make the contract able to receive eth during 
+    // constructor () payable {
+
+    // }
+
     function update(string memory _newString) public payable{
         // msg.value gets the ether value on the contract
         // 1 ether is a common key word 

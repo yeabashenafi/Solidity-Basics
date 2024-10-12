@@ -6,8 +6,12 @@
 	"output": {
 		"abi": [
 			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
 				"inputs": [],
-				"name": "myString",
+				"name": "lastFunctionCalled",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -19,17 +23,21 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "lastValueSent",
+				"outputs": [
 					{
-						"internalType": "string",
-						"name": "_newString",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "updateString",
-				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -45,7 +53,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ethereum Course/Deposit and Withdrawals/fallback.sol": "SampleContract"
+			"Ethereum Course/Deposit and Withdrawals/fallback.sol": "SampleContractFallback"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -60,11 +68,11 @@
 	},
 	"sources": {
 		"Ethereum Course/Deposit and Withdrawals/fallback.sol": {
-			"keccak256": "0xc6ccd1d4f20910f086427ff067f447a563f2fc0473b573d7fb38e32a89064a36",
+			"keccak256": "0x8f94a3d65e4ada99ac2955a2ee5e1e61f59ca272d8acbad23790e4f3d91a8d10",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b5c548ad94e8c43ac43fd34aec82e2d72fa4d560401faa1894fcd095aab4e0ed",
-				"dweb:/ipfs/QmVCz8YgvwNs3AnrDjKQVZMpre7xLtkxKNdv6yFPS4ezxL"
+				"bzz-raw://4302496b362c75d2cea546b2db66b73fe63f1776d304d1f71d8d8f9f266bd9be",
+				"dweb:/ipfs/QmbjcSb1nCVXk7GFudgo85DMCcBUtj4w77LYNQQVbpTPrS"
 			]
 		}
 	},
