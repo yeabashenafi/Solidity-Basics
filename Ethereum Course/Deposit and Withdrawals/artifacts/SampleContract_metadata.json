@@ -26,7 +26,7 @@
 						"type": "string"
 					}
 				],
-				"name": "updateString",
+				"name": "update",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ethereum Course/Deposit and Withdrawals/fallback.sol": "SampleContract"
+			"Ethereum Course/Deposit and Withdrawals/payable.sol": "SampleContract"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Ethereum Course/Deposit and Withdrawals/fallback.sol": {
-			"keccak256": "0xc6ccd1d4f20910f086427ff067f447a563f2fc0473b573d7fb38e32a89064a36",
+		"Ethereum Course/Deposit and Withdrawals/payable.sol": {
+			"keccak256": "0xc39dd7bfc07fcacb34992dd5eed1bc5b82d8c89ecce8cd4657238234bc3894cb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b5c548ad94e8c43ac43fd34aec82e2d72fa4d560401faa1894fcd095aab4e0ed",
-				"dweb:/ipfs/QmVCz8YgvwNs3AnrDjKQVZMpre7xLtkxKNdv6yFPS4ezxL"
+				"bzz-raw://90b5e765cf8c29d8f7d888bfcadd6e61ab26e4b93aa83334b61a939f20387130",
+				"dweb:/ipfs/QmRkvffH2BJbXHJtpRBGFrFBwLGzfhvmeDVaR4bFN9mkd5"
 			]
 		}
 	},
