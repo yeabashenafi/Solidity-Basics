@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ethereum Course/Data Structures/struct.sol": "ExampleStruct"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ethereum Course/Data Structures/struct.sol": {
+			"keccak256": "0xe43442a2dad0ae180c62b23a3b566c4813001c00dd972a3f493ace52a1e9e74b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://efb1128469ee6de835bd492afdc1893e0dc3376e2d277e3c2e42bbc3d8d4b277",
+				"dweb:/ipfs/QmNwzqieiCJonVYdBkvxdpGeaDsbvvsciYRz3Xif7Kr1ss"
+			]
+		}
+	},
+	"version": 1
+}
