@@ -78,11 +78,11 @@
 	},
 	"sources": {
 		"Ethereum Course/Data Structures/exceptionRequire.sol": {
-			"keccak256": "0x04d7efa9dbb700e1400478fa099098a16f37a9a0bb5e4b5df6f7017e652333d0",
+			"keccak256": "0x91fbfb5d5c3b5db8fba255a0e0327c9bbb9f5af5625d6988b518e13d01c978b2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7a5894733cb038f6516e78bfab0416c91c7eb0aad9c4d51016ea46dc4d46e225",
-				"dweb:/ipfs/QmVULPzmVvhsLbt6CwXYcZT34o9p6mJFHdTeagy8zjjYN9"
+				"bzz-raw://a1159bcf103851365d78869d9a2ea953d0fed91b855890f6165b7826b867cd24",
+				"dweb:/ipfs/QmRsGaPSSWyPYMGCBAsW1w7rywmNwD5htnah6CEovATVsh"
 			]
 		}
 	},

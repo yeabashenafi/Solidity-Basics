@@ -7,6 +7,7 @@ contract ExampleExceptionRequire{
 
     function receiveMoney() public payable {
         // different from require in that it is used when the case must not be reached
+        // and does not have a message
         assert(msg.value == uint8(msg.value));
         balanceReceived[msg.sender] += uint8(msg.value);
     }
