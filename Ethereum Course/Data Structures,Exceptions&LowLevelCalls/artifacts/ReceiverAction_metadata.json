@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ethereum Course/Data Structures,Exceptions&LowLevelCalls/sendTransfer.sol": "ReceiverAction"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ethereum Course/Data Structures,Exceptions&LowLevelCalls/sendTransfer.sol": {
+			"keccak256": "0xcb22d5a45c7c9c19c9da0d2d9e6ca93861b400bb8ed9e077c27476b7deb8869c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5586c7cef53cd9723f3470a932d96f98ac1fbd9f0832d396b67a4005198aacde",
+				"dweb:/ipfs/QmQLQ94C4xMRgYQggZDCDN8Gzn4P77C8Nj7y7jxLV7MTZf"
+			]
+		}
+	},
+	"version": 1
+}
