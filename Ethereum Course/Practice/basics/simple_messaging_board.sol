@@ -12,7 +12,7 @@ contract SimpleMessagingBoard{
         myAddress = msg.sender;
     }
 
-    function postMessage(string memory _message ) {
+    function postMessage(string memory _message ) public {
         currentMessage = _message;
         myAddress = msg.sender;
         noOfUpdates++;
@@ -23,8 +23,8 @@ contract SimpleMessagingBoard{
         return currentMessage;
     }
 
-    function getSender() public pure returns (uint256) {
-        return msg.sender;
+    function confirmMessage(string memory _message) public pure returns (string memory) {
+        return _message;
     }
 
 }
