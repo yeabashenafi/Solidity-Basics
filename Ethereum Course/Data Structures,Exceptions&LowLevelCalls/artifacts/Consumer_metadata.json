@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ethereum Course/Data Structures,Exceptions&LowLevelCalls/smartWallet.sol": "Consumer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ethereum Course/Data Structures,Exceptions&LowLevelCalls/smartWallet.sol": {
+			"keccak256": "0x627f77c85dec0a29bf8a6b4f41a44cf910736c2693d6a8120141806d86fb0718",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7768543bf03ebbab05ca7bf8cfb023ab6abd79f75c520dc119178c61a4e19d87",
+				"dweb:/ipfs/QmUZRJ2YNxyMtLmoJt4YJvH7yi9cZSZCjTFhWxYbwXxVhF"
+			]
+		}
+	},
+	"version": 1
+}

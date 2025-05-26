@@ -109,7 +109,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ethereum Course/Data Structures/mappingWithStruct.sol": "MappingStructExample"
+			"Ethereum Course/Data Structures,Exceptions&LowLevelCalls/mappingWithStruct.sol": "MappingStructExample"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -123,7 +123,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Ethereum Course/Data Structures/mappingWithStruct.sol": {
+		"Ethereum Course/Data Structures,Exceptions&LowLevelCalls/mappingWithStruct.sol": {
 			"keccak256": "0x4fe8d71f39c8c0d0ed4765f253556d29a251a1defa1a7c177d5478b9bcdc4a3e",
 			"license": "MIT",
 			"urls": [

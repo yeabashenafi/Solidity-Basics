@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Ethereum Course/Data Structures/mappingWithdrawal.sol": "ExampleMappingWithdrawal"
+			"Ethereum Course/Data Structures,Exceptions&LowLevelCalls/mappingWithdrawal.sol": "ExampleMappingWithdrawal"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -85,7 +85,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Ethereum Course/Data Structures/mappingWithdrawal.sol": {
+		"Ethereum Course/Data Structures,Exceptions&LowLevelCalls/mappingWithdrawal.sol": {
 			"keccak256": "0xc9ab2a37776a69ed319ac88ba0c6f28a3dd663eaa62ac5477d90dd98817b03f4",
 			"license": "MIT",
 			"urls": [
