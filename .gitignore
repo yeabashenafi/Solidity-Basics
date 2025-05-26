@@ -30,3 +30,30 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Solidity specific
+/build/
+/cache/
+/artifacts/
+/contracts/artifacts/ 
+/contracts/cache/     
+*.json
+*.abi
+
+/node_modules/
+
+.env
+.env.*
+!.env.example 
+
+/coverage/
+.nyc_output/
+
+# Editor/IDE specific files
+.vscode/        # VS Code settings (if you use VS Code locally)
+.idea/          # IntelliJ/WebStorm IDE files
+*.iml
+
+# OS generated files
+.DS_Store
+.gitkeep
