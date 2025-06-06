@@ -11,6 +11,8 @@ contract SampleContractFallback{
     // called when someone sends ether to the contract address without specifiying a function call i.e with an empty 'data' payload
     // also called if the gas limit for the transaction is less than 2300 gas
     // payable keyword allows the function to receive ether
+    // to test in remix ide deploy the contract and after deploying it pass an ether value to the value option above the deploy button
+    // then click on the transact button inside the contract deployed without any data and check the lastFunctionCalled and lastValueSent values
     receive() external payable {
         lastValueSent = msg.value;
         lastFunctionCalled = "receive";
@@ -20,6 +22,8 @@ contract SampleContractFallback{
     // called when ether is sent to the contract address without any data but no receive function is defined
     // also called when the contract receives ether and the transaction includes 'data' that is not defined in the contract
     // usually used to handle non-existing functions 
+    // to test in remix ide deploy the contract and after deploying it pass an ether value to the value option above the deploy button
+    // then click on the transact button inside the contract deployed by passing a random hexadecimal value and check the lastFunctionCalled and lastValueSent values
     fallback() external payable {
         lastValueSent = msg.value;
         lastFunctionCalled = "fallback";
