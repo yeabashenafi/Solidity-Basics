@@ -55,7 +55,7 @@ contract MappingStructExample{
     }
 
     // allows users to withdraw money 
-    function withdrawMoney(address payable _to , uint _amount) public {
+    function withdrawMoney(address payable _to , uint _amount) public payable {
         // decreases the sent ether from the total balance property
         balances[msg.sender].totalBalance -= _amount;
 
@@ -66,8 +66,9 @@ contract MappingStructExample{
         balances[msg.sender].withdrawals[balances[msg.sender].numWithdrawals] = withdrawal;
 
         // increment the no of withdrawals counter varaiable inside the users balances mapping
-        balances[msg.sender].numWithdrawals --;
-
+        balances[msg.sender].numWithdrawals ++;
+        
+        // send the ether to the address
         _to.transfer(_amount);
     }
 
